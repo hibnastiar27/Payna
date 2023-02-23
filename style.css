@@ -1,0 +1,255 @@
+/* Root */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Start Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+  align-items: center;
+  margin-bottom: 72px;
+}
+
+nav .logo img {
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+}
+
+nav ul li a {
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+nav ul li a.active {
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  font-weight: 600;
+}
+
+nav button.sign-in {
+  padding: 12px 48px;
+  background-color: #f5f6fb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 150ms ease-in;
+}
+
+nav button.sign-in:hover {
+  background-color: #1f7cff;
+  color: #f5f6fb;
+}
+/* End Navbar */
+
+/* Start Home */
+section#Home .home-content {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 142px; */
+}
+
+.home-content .left-side {
+  width: 443px;
+  padding: 36px 0;
+  margin-bottom: 70px;
+}
+
+.home-content .left-side h1 {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.home-content .left-side p {
+  font-size: 1rem;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+.home-content .left-side button.get-started {
+  padding: 12px 48px;
+  color: #f5f6fb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #1f7cff;
+  transition: 150ms ease-in;
+}
+
+.home-content .left-side button.get-started:hover {
+  background-color: #155fc5;
+  transition: 150ms ease-out;
+}
+
+.home-content .right-side img {
+  width: 100%;
+}
+
+section#Home {
+  margin-bottom: 130px;
+}
+
+section#Home .trust-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#Home .trust-content p {
+  font-weight: 600;
+}
+
+section#Home .trust-content .trust-img img {
+  height: 30px;
+  padding-left: 50px;
+  opacity: 50%;
+  transition: 300ms ease;
+}
+
+section#Home .trust-content .trust-img img:hover {
+  opacity: 100%;
+}
+
+/* End Home */
+
+/* start features */
+section#Features {
+  margin: auto;
+  margin-bottom: 120px;
+}
+
+section#Features .headline-features {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.headline-features p:nth-child(1) {
+  color: #f75c4e;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.headline-features h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.headline-features p:nth-child(3) {
+  color: #575455;
+  line-height: 32px;
+}
+
+.content-features {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.left-content,
+.center-content,
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.item-content {
+  display: flex;
+  align-items: start;
+  gap: 24px;
+}
+
+.item-content img {
+  object-fit: scale-down;
+}
+
+.text-content p:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.text-content p:last-child {
+  font-size: 1rem;
+  line-height: 32px;
+  color: #575455;
+}
+/* end features */
+
+/* Start Contact */
+section#Contact {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+section#Contact img {
+  height: 400px;
+}
+
+.content-contact p:first-child {
+  color: #f75c4e;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.content-contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.content-contact p:nth-child(3) {
+  color: #575455;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.input-contact input {
+  width: 200px;
+  padding: 14px 26px;
+  border-radius: 50px;
+  border: none;
+  background-color: #f5f6fb;
+}
+
+.input-contact input:focus-visible {
+  outline: none;
+}
+
+.input-contact button {
+  margin-left: -40px;
+  padding: 12px 48px;
+  color: #f5f6fb;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #1f7cff;
+}
+/* End Contact */
