@@ -72,6 +72,7 @@ section#Home .home-content {
 
 .home-content .left-side {
   width: 443px;
+  /* width: 40%; */
   padding: 36px 0;
   margin-bottom: 70px;
 }
@@ -253,3 +254,51 @@ section#Contact img {
   background-color: #1f7cff;
 }
 /* End Contact */
+
+/* Responsive Tablet */
+@media only screen and (max-width: 768px) {
+  /* container & Nav */
+  .container {
+    width: 90%;
+  }
+
+  .container nav ul {
+    display: none;
+  }
+
+  .container nav {
+    padding: 1.5rem 0;
+    margin: 0;
+  }
+
+  /* Home */
+  section#Home .home-content {
+    /* display: flex; */
+    flex-direction: column;
+  }
+
+  section#Home .home-content .left-side {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 100px;
+  }
+
+  section#Home .right-side img {
+    display: none;
+  }
+
+  section#Home .trust-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* contact */
+  section#Contact {
+    flex-direction: column;
+  }
+}
+/* End Responsive Tablet */
+
+/* Responsive Hp */
+/* End Responsive Hp */
