@@ -121,9 +121,15 @@ section#Home .trust-content p {
   font-weight: 600;
 }
 
+section#Home .trust-content .trust-img {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
 section#Home .trust-content .trust-img img {
   height: 30px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   opacity: 50%;
   transition: 300ms ease;
 }
@@ -165,7 +171,12 @@ section#Features .headline-features {
   width: 90%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
+}
+
+.grup-content-features {
+  display: flex;
   gap: 50px;
 }
 
@@ -293,9 +304,42 @@ section#Contact img {
     text-align: center;
   }
 
+  section#Home .trust-content p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  section#Home .trust-content p br {
+    display: none;
+  }
+
+  section#Home .trust-content .trust-img {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  section#Home .trust-content .trust-img img {
+    height: 30px;
+    padding-left: 0;
+  }
+
+  /* Features */
+  section#Features .content-features {
+    flex-direction: column;
+  }
+
+  section#Features .content-features .right-content {
+    flex-direction: row;
+  }
+
   /* contact */
   section#Contact {
     flex-direction: column;
+    gap: 50px;
+  }
+
+  section#Contact .content-contact {
+    text-align: center;
   }
 }
 /* End Responsive Tablet */
