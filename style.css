@@ -345,4 +345,55 @@ section#Contact img {
 /* End Responsive Tablet */
 
 /* Responsive Hp */
+@media only screen and (max-width: 425px) {
+  nav button.sign-in {
+    display: none;
+  }
+
+  section#Home .home-content .left-side h1 {
+    font-size: 38px;
+  }
+
+  section#Home .trust-content .trust-img {
+    flex-wrap: wrap;
+  }
+
+  section#Features h2 {
+    font-size: 28px;
+  }
+
+  section#Features p br {
+    display: none;
+  }
+
+  section#Features .content-features .grup-content-features,
+  section#Features .content-features .right-content {
+    flex-direction: column;
+  }
+
+  section#Contact img {
+    width: 321.61px;
+    height: 227.9px;
+  }
+
+  section#Contact .content-contact h2 {
+    font-size: 28px;
+  }
+
+  section#Contact .content-contact p br {
+    display: none;
+  }
+
+  section#Contact .content-contact .input-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  section#Contact .content-contact .input-contact input,
+  section#Contact .content-contact .input-contact button {
+    width: auto;
+    margin: 0;
+  }
+}
 /* End Responsive Hp */
